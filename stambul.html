@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Our Funky HTML Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <p class="tlogo">Miasta</p>
+    </div>
+    <button class="menu-button" onclick="toggleMenu()">Menu</button>
+    <script>
+        function toggleMenu() {
+            var nav = document.querySelector('nav ul');
+            nav.style.display = (nav.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">Miasta</a>
+                <ul class="dropdown-content">
+                    <li><a href="ateny.html">Ateny</a></li>
+                    <li><a href="bangkok.html">Bangkok</a></li>
+                    <li><a href="paryz.html">Paryż</a></li>
+                    <li><a href="stambul.html">Stambuł</a></li>
+                    <li><a href="valetta.html">Valetta</a></li>
+                    <li><a href="wenecja.html">Wenecja</a></li>
+                    <li><a href="wieden.html">Wiedeń</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">More</a>
+                <ul class="dropdown-content">
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="info.html">Więcej informacji</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="content">
+  <h1><a id="top">O Stambule</a></h1>
+  <h2><a href="#galeria" class="linka">Zdjęcia</a></h2>
+  <div class="phdiv">
+    <img src="media/Logo.jpg">
+</div>
+  <p class="fact">
+    Stambuł, miasto leżące na styku Europy i Azji, ma bogatą historię sięgającą ponad 2500 lat. Początkowo znane jako Bizancjum, potem Konstantynopol, było stolicą Bizancjum, aż do zdobycia go przez Turków Osmańskich w 1453 roku. To miasto łączy w sobie wpływy kultury europejskiej i azjatyckiej, co widać w jego zróżnicowanej architekturze i kuchni.
+
+Hagia Sophia, pierwotnie bazylika chrześcijańska, potem meczet, a obecnie muzeum, jest ikoną miasta, odzwierciedlającą jego wielowarstwową historię. Meczet Błękitny z kolei zachwyca unikalnymi niebieskimi płytkami ceramicznymi. Pałac Topkapi, dawna siedziba sułtanów osmańskich, obecnie jest muzeum, ukazującym bogactwo i przepych osmańskiego dworu.
+
+Bazar Kapalı Çarşı, jeden z największych krytych bazarków na świecie, oferuje niezapomniane doświadczenie zakupowe. Most Galata, łączący dwie części miasta, to także punkt widokowy, skąd można podziwiać panoramę Stambułu.
+
+Dzielnica Sultanahmet, z mnóstwem zabytków, to serce historyczne miasta. Stambuł słynie także z wielokulturowości, a dzielnica Beyoğlu z bulwarem Istiklal jest centrum kulturalnym i modnym.
+
+Tureckie kąpiele, znane jako hamamy, są integralną częścią tradycji Stambułu, oferując relaks i oczyszczenie. Bosfor, cieśnina dzieląca miasto na dwie części, jest ważnym szlakiem wodnym, a rejs statkiem po nim to niezapomniane przeżycie.
+
+Stambuł to także miasto festiwali, jak na przykład Tulipanowy Festiwal wiosną. Dziś, będąc jednym z największych ośrodków kultury i turystyki na świecie, Stambuł jest miejscem, gdzie współczesność spotyka się z bogatą historią, tworząc niezwykłe miejsce pełne kontrastów.
+<br> <a target="_blank" class="linka" href="https://www.national-geographic.pl/artykul/stambul-historia">Dowiedz się więcej</a></p>
+    <br><br><br>
+  <ul class="fact1">
+    <li>Aktualna powierzchnia - 5 461 km2 </li>
+    <li>Liczba mieszkańców -  15 milionów</li>
+  </ul>
+  <br><br><br>
+  <h2>Historia</h2>
+  <p class="fact">Stambuł, czyli takie mega miejsce, które już od tysięcy lat kręci ludzi. No bo na poważnie, zaczęło się to jako Bizancjum, potem Konstantynopol, i było tam pełno tych chrześcijańskich bazylik i pałaców. Ale w 1453 roku przyszli Osmanowie i to był moment, kiedy to miasto zmieniło się w coś nowego, co wszyscy teraz nazywają Stambułem.
+
+    Hagia Sophia to taki mix - była kościołem, potem meczetem, a teraz muzeum. Widać w niej te wszystkie wpływy i zmiany, coś jak historia Stambułu w pigułce. Meczet Błękitny z kolei, no, te niebieskie płytki robią wrażenie.
+    
+    Pałac Topkapi, to miejsce, gdzie sułtani osmańscy rządzili i pewnie rządzili całkiem dobrze, skoro tam byli. A bazar Kapalı Çarşı, to taka mega targowisko, gdzie można kupić wszystko, od pamiątek po przyprawy.
+    
+    Most Galata to taka kolejna ikona, która łączy dwie części miasta. Sultanahmet to serce historyczne, pełne tych zabytków, co na zdjęciach w podręczniku do historii. Beyoğlu z bulwarem Istiklal to bardziej nowoczesne miejsce, gdzie można spędzić czas na zakupach i imprezowaniu.
+    
+    A te tureckie kąpiele, czyli hamamy, to takie doświadczenie, które trzeba przetestować. Bosfor to ta cieśnina, co dzieli miasto na dwie części, a statkiem po nim to taki obowiązkowy punkt na liście turysty.
+    
+    No i te festiwale, jak Tulipanowy wiosną - całkiem fajna sprawa. Dziś to miasto to taki mix historii, kultury i nowoczesności. Stambuł to po prostu miejsce, gdzie się wszystko kręci i dzieje, w sumie jak jedno wielkie kino.
+   </p>
+  <br><br><br>
+  </div>
+  <h1><a id="galeria">Galeria</a></h1>
+  <div class="gallery-container">
+    <div class="mySlides fade">
+        <img src="media/Istanbul1.jpg" alt="Slide 1">
+    </div>
+    <div class="mySlides fade">
+        <img src="media/Istanbul2.jpg" alt="Slide 2">
+    </div>
+    <div class="mySlides fade">
+        <img src="media/Istanbul3.jpg" alt="Slide 3">
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <br><br><br>
+</div>
+<h3><a href="#top" class="linka">Do góry</a></h3>
+      <script src="galeria.js"></script>
+      <footer>
+        <p>&copy; 2024 Marcelina Błyskun 2ta</p>
+    </footer>
+</body>
+</html>

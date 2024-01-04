@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p class="tlogo">Miasta</p>
+        </div>
+        <button class="menu-button" onclick="toggleMenu()">Menu</button>
+        <script>
+            function toggleMenu() {
+                var nav = document.querySelector('nav ul');
+                nav.style.display = (nav.style.display === 'block') ? 'none' : 'block';
+            }
+        </script>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Miasta</a>
+                    <ul class="dropdown-content">
+                        <li><a href="ateny.html">Ateny</a></li>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="paryz.html">Paryż</a></li>
+                        <li><a href="stambul.html">Stambuł</a></li>
+                        <li><a href="valetta.html">Valetta</a></li>
+                        <li><a href="wenecja.html">Wenecja</a></li>
+                        <li><a href="wieden.html">Wiedeń</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="quiz.html">Quiz</a></li>
+                        <li><a href="info.html">Więcej informacji</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+      <br><br>
+      <div class="content">
+    <h1>Quiz - Pokarz nam swoją wiedzę o najpiękniejszych miastach świata!</h1>
+    <div class="phdiv">
+        <img src="media/Logo.jpg">
+    </div>
+    <form action="mailto:marcelina.blsykun@tm1.edu.pl" method="post">
+
+        <fieldset>
+            <legend>Nad jaką rzeką leży Paryż?</legend>
+            <input type="text" id="q1" name="q1">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Valletta jest stolicą jakiego europejskiego państwa wyspiarskiego?</legend>
+            <input type="text" id="q2" name="q2">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Jaka jest oficjalna religia Tajlandii, a Bangkok jest ośrodkiem jej praktyk?</legend>
+            <input type="text" id="q3" name="q3">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Który słynny austriacki kompozytor jest kojarzony z Wiedniem i sceną muzyki klasycznej?</legend>
+            <input type="text" id="q4" name="q4">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Jaki jest centralny plac w Wenecji, znany ze swojej kultowej bazyliki i dzwonnicy?</legend>
+            <input type="text" id="q5" name="q5">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Stambuł to miasto położone na dwóch kontynentach. Które dwa kontynenty łączy?</legend>
+            <input type="text" id="q6" name="q6">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>
+                Która świątynia poświęcona bogini Atenie jest uważana za symbol Aten?</legend>
+            <input type="text" id="q7" name="q7">
+        </fieldset>
+        <br><br>
+        </fieldset>
+        <input type="submit" value="Submit">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+</div>
+<footer>
+    <p>&copy; 2024 Marcelina Błyskun 2ta</p>
+</footer>
+</body>
+</html>
