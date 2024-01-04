@@ -188,6 +188,13 @@ footer {
         margin-left: 30px;
        text-align: left;
       }
+      .content1 {
+    padding: 5vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    text-align: center;
+  }
+
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
     h1 {
