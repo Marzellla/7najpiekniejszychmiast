@@ -152,6 +152,12 @@ footer {
     width: 150px; 
     height: 75px;
 }
+.fact {
+    padding-left: 3vh;
+    padding-right: 3vh;
+    font-size: 20px;
+    margin: 10px;
+  }
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
