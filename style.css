@@ -45,7 +45,10 @@ nav a {
     color: #0d7162;
     font-size: 20px;
     font-weight: bolder;
-    font-family: 'Comic Sans MS', cursive
+    font-family: 'Comic Sans MS' ;
+  text-shadow: 2px 2px  grey;
+  text-decoration: underline;
+
 }
 nav a:hover {
     color: #ffcc00;
